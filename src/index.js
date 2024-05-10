@@ -4,7 +4,7 @@ const utils = require('./utils/utils');
 var time;
 let parser = new Parser();
 
-async function check_news() {
+function check_news() {
   parser.parseURL(process.env.NEWS_URL, function(err, feed) {
     if (err) {
       console.log("Error while fetching RSS feed:", err)
