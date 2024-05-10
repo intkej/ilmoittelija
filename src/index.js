@@ -22,7 +22,7 @@ function check_news() {
 function news_check_loop() {
   console.log("Script started");
   check_news();
-  setInterval(check_news, 1 * 60000);
+  setInterval(check_news, 60000);
 }
 
 news_check_loop();
