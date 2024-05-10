@@ -1,0 +1,24 @@
+{
+  "name": "ilmoittelija",
+  "version": "1.0.0",
+  "description": "Get alerted by Finnish media news via SMS.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intkej/ilmoittelija.git"
+  },
+  "author": "Johannes Intke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intkej/ilmoittelija/issues"
+  },
+  "homepage": "https://github.com/intkej/ilmoittelija#readme",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "rss-parser": "^3.13.0"
+  }
+}
