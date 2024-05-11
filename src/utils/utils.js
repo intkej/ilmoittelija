@@ -6,7 +6,7 @@ function send_sms(title, url) {
   let data = {
     from: "News",
     to: process.env.PHONE_NUMBER,
-    message: title + "\n" + url
+    message: title + "\n\n" + url
   };
 
   data = new URLSearchParams(data);
