@@ -8,7 +8,7 @@ Clone the repository
     git clone https://github.com/intkej/ilmoittelija.git
     cd ilmoittelija
 
-### Install the dependencies:
+Install the dependencies:
 
     npm install
 
