@@ -5,8 +5,8 @@ Get alerted by Finnish media's news posts via SMS.
 # Installation
 Clone the repository
 
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/intkej/ilmoittelija.git
+    cd ilmoittelija
 
 ### Install the dependencies:
 
@@ -24,6 +24,4 @@ Add your 46elks API credentials and other configuration settings to the .env fil
 
 Run the application:
 
-    node index.js
-    sh
-
+    node src/index.js
