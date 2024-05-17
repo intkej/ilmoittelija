@@ -4,7 +4,12 @@ const utils = require('./utils/utils');
 let parser = new Parser();
 
 // using a JS array for now
-const media_links = ['https://www.iltalehti.fi/rss/uutiset.xml', 'https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET', 'https://www.hs.fi/rss/tuoreimmat.xml']
+const media_links = [
+    'https://www.iltalehti.fi/rss/uutiset.xml', 
+    'https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET', 
+    'https://www.hs.fi/rss/tuoreimmat.xml',
+    'https://www.is.fi/rss/tuoreimmat.xml'
+]
 
 let latest_news = {} // lets use the object method instead of time-method
 
